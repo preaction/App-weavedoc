@@ -2,6 +2,10 @@ Changelog for App-weavedoc
 
 {{ $NEXT }}
 
+    [Fixed]
+
+    - Fix #! line in script not being overwritten with correct Perl path
+
 0.002     2017-11-03 18:27:23-05:00 America/Chicago
 
     [Fixed]
