@@ -7,7 +7,7 @@ App::weavedoc - Show documentation for a module using Pod::Weaver
 
 # VERSION
 
-version 0.001
+version 0.002
 
 # SYNOPSIS
 

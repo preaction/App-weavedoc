@@ -31,7 +31,19 @@
       },
       "runtime" : {
          "requires" : {
-            "perl" : "5.008"
+            "Encode" : "0",
+            "Getopt::Long" : "0",
+            "Module::Runtime" : "0",
+            "PPI" : "0",
+            "Path::Tiny" : "0",
+            "Pod::Elemental" : "0",
+            "Pod::Text" : "0",
+            "Pod::Usage" : "0",
+            "Pod::Weaver" : "0",
+            "Scalar::Util" : "0",
+            "Software::LicenseUtils" : "0",
+            "perl" : "5.014",
+            "warnings" : "0"
          }
       },
       "test" : {
@@ -50,7 +62,7 @@
    "provides" : {
       "App::weavedoc" : {
          "file" : "lib/App/weavedoc.pm",
-         "version" : "0.001"
+         "version" : "0.002"
       }
    },
    "release_status" : "stable",
@@ -65,7 +77,7 @@
          "web" : "https://github.com/preaction/App-weavedoc"
       }
    },
-   "version" : "0.001",
+   "version" : "0.002",
    "x_authority" : "cpan:PREACTION",
    "x_serialization_backend" : "Cpanel::JSON::XS version 3.0216"
 }

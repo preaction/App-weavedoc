@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use 5.008;
+use 5.014;
 
 use ExtUtils::MakeMaker;
 
@@ -17,9 +17,22 @@ my %WriteMakefileArgs = (
     "bin/weavedoc"
   ],
   "LICENSE" => "perl",
-  "MIN_PERL_VERSION" => "5.008",
+  "MIN_PERL_VERSION" => "5.014",
   "NAME" => "App::weavedoc",
-  "PREREQ_PM" => {},
+  "PREREQ_PM" => {
+    "Encode" => 0,
+    "Getopt::Long" => 0,
+    "Module::Runtime" => 0,
+    "PPI" => 0,
+    "Path::Tiny" => 0,
+    "Pod::Elemental" => 0,
+    "Pod::Text" => 0,
+    "Pod::Usage" => 0,
+    "Pod::Weaver" => 0,
+    "Scalar::Util" => 0,
+    "Software::LicenseUtils" => 0,
+    "warnings" => 0
+  },
   "TEST_REQUIRES" => {
     "ExtUtils::MakeMaker" => 0,
     "File::Spec" => 0,
@@ -35,11 +48,23 @@ my %WriteMakefileArgs = (
 
 
 my %FallbackPrereqs = (
+  "Encode" => 0,
   "ExtUtils::MakeMaker" => 0,
   "File::Spec" => 0,
+  "Getopt::Long" => 0,
   "IO::Handle" => 0,
   "IPC::Open3" => 0,
-  "Test::More" => 0
+  "Module::Runtime" => 0,
+  "PPI" => 0,
+  "Path::Tiny" => 0,
+  "Pod::Elemental" => 0,
+  "Pod::Text" => 0,
+  "Pod::Usage" => 0,
+  "Pod::Weaver" => 0,
+  "Scalar::Util" => 0,
+  "Software::LicenseUtils" => 0,
+  "Test::More" => 0,
+  "warnings" => 0
 );
 
 
