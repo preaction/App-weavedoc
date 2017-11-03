@@ -1,5 +1,5 @@
 package App::weavedoc;
-our $VERSION = '0.002';
+our $VERSION = '0.003';
 # ABSTRACT: Show documentation for a module using Pod::Weaver
 
 =head1 SYNOPSIS
