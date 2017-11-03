@@ -1,0 +1,36 @@
+[![Build Status](https://travis-ci.org/preaction/App-weavedoc.svg?branch=master)](https://travis-ci.org/preaction/App-weavedoc)
+[![Coverage Status](https://coveralls.io/repos/preaction/App-weavedoc/badge.svg?branch=master)](https://coveralls.io/r/preaction/App-weavedoc?branch=master)
+
+# NAME
+
+App::weavedoc - Show documentation for a module using Pod::Weaver
+
+# VERSION
+
+version 0.001
+
+# SYNOPSIS
+
+    weavedoc [--license <license>] [--version <version>] [--author <author>] <file>
+    weavedoc -h|--help
+
+# DESCRIPTION
+
+This distribution contains a command line utility to take a file
+with [Pod::Weaver](https://metacpan.org/pod/Pod::Weaver) directives and render it to the terminal like
+[the perldoc utility](https://metacpan.org/pod/perldoc) does.
+
+# SEE ALSO
+
+[Pod::Weaver](https://metacpan.org/pod/Pod::Weaver), [App::podweaver](https://metacpan.org/pod/App::podweaver), [perldoc](https://metacpan.org/pod/perldoc)
+
+# AUTHOR
+
+Doug Bell <preaction@cpan.org>
+
+# COPYRIGHT AND LICENSE
+
+This software is copyright (c) 2017 by Doug Bell.
+
+This is free software; you can redistribute it and/or modify it under
+the same terms as the Perl 5 programming language system itself.
