@@ -1,4 +1,5 @@
 #!/usr/bin/env perl
+our $VERSION = '0.002';
 # PODNAME: weavedoc
 
 =head1 SYNOPSIS
